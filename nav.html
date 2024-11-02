@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile with Stopwatch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="nav.css">
+    <script defer src="nav.js"></script> <!-- Ensures JS loads after HTML -->
+</head>
+<body>
+    <header>
+        <div class="logo">Devil</div>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="res.jpg">About Me</a>
+            <a href="#">Skills</a>
+            <a href="#">Education</a>
+            <a href="#">Experience</a>
+            <a href="file:///C:/Users/bhara/coding/internships/Tic-Tac-Toe/dtic.html">TIC-TAC-TOE</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-con">
+            <!-- Profile Image Above the Name -->
+            <img src="pro.jpg" alt="Profile Image" class="profile-image">
+            <h1>Hi, It's <span>Devil</span></h1>
+            <h3>I'm a <span>Student</span></h3>
+            <p>I have an interest in coding and designing.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/bharath-kumar-mekala-141025316/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/BharathKumar733"><i class="fa-brands fa-github"></i></a>
+                <a href="https://t.me/BharathKumarMekala"><i class="fa-brands fa-telegram"></i></a>
+                <a href="mailto:bharathrajvarma22@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <!-- Stopwatch Section -->
+        <div class="home-img">
+            <div class="stopwatch-wrapper">
+                <p id="stopwatch">
+                    <span class="mins">00</span>:<span class="seconds">00</span>:<span class="tens">00</span>
+                </p>
+                <button class="btn-start">Start</button>
+                <button class="btn-stop">Stop</button>
+                <button class="btn-reset">Reset</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
